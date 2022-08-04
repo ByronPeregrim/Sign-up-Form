@@ -1,0 +1,132 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+
+}
+
+body {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.left-section {
+    width: 35%;
+    height: 100vh;
+    background-image: url(images/street.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.right-section {
+    width: 65%;
+    height: 100vh;
+}
+
+.logo-banner {
+    background-color: rgba(0, 0, 0, 0.514);
+    height: 15vh;
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 12vh;
+}
+
+@font-face {
+    font-family: odinFont;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+.logo-banner-text {
+    color: white;
+    align-self: center;
+    font-size: 7rem;
+    font-family: odinFont;
+}
+
+.logo-box {
+    margin-left: 8vw;
+}
+
+.source-banner {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    font-size: small;
+    align-self: center;
+}
+
+.right-section > div {
+    padding-left: 3vw;
+}
+
+.right-top {
+    height: 20vh;
+    font-size: 1.75rem;
+    font-weight: 525;
+    padding-top: 12vh;
+    padding-right: 15vw;
+    padding-bottom: 4vh;
+}
+
+.bottom-text {
+    margin-top: 3vh;
+}
+
+.right-middle {
+    height: 35vh;
+    background-color: white;
+    box-shadow: 1px 2px 6px 1px lightgray;
+}
+
+.right-bottom {
+    padding-top: 3vh;
+}
+
+button {
+    color: white;
+    font-size: 1rem;
+    background-color: brown;
+    border-radius: 10px;
+    width: 20%;
+    height: 4.5vh;
+    box-shadow: 1px 2px 6px 1px lightgray;
+    margin-bottom: 3vh;
+    border: solid gray;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 1px 2px 10px 5px lightgray;
+    font-size: 1.1rem;
+}
+
+a {
+    color: white;
+}
+
+#log-in-link {
+    color: brown;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#log-in-link:hover {
+    font-weight: 900;
+}
+
+a:hover {
+    font-weight: 900;
+}
+
